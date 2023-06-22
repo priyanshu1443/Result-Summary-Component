@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- --------------- font family -----------------  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div id="resultcard">
+    <div id="result">
+      <p>Your Result</p>
+      <div id="marks">
+        <h1>76</h1>
+        <p>of 100</p>
+      </div>
+      <section>
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </section>
+    </div>
+    <div id="summary">
+      <h2>Summary</h2>
+
+      <section id="quality" style="--c: #ff575712 ">
+        <div class="quality">
+          <div>
+            <img src="./assets/images/icon-reaction.svg" alt="">
+            <p class="quality_name" style="--c:#ff5717">
+              Reaction
+            </p>
+          </div>
+          <p class="quality_marks">
+            <span class="outof">80</span> <span class="total">/ 100</span>
+          </p>
+        </div>
+
+        <div class="quality" style="--c: #ffb01f12">
+          <div>
+            <img src="./assets/images/icon-memory.svg" alt="">
+            <p class="quality_name" style="--c:#ffb01f">
+              Memory
+            </p>
+          </div>
+          <p class="quality_marks">
+            <span class="outof">92</span> <span class="total">/ 100</span>
+          </p>
+        </div>
+
+        <div class="quality" style="--c:#00bd9112">
+          <div>
+            <img src="./assets/images/icon-verbal.svg" alt="">
+            <p class="quality_name" style="--c:#00bd91">
+              Verbal
+            </p>
+          </div>
+          <p class="quality_marks">
+            <span class="outof">61</span> <span class="total">/ 100</span>
+          </p>
+        </div>
+
+        <div class="quality" style="--c:#1125d412">
+          <div>
+            <img src="./assets/images/icon-visual.svg" alt="">
+            <p class="quality_name" style="--c:#1125d4">
+              Visual
+            </p>
+          </div>
+          <p class="quality_marks">
+            <span class="outof">72</span> <span class="total">/ 100</span>
+          </p>
+        </div>
+      </section>
+
+      <div id="btn">
+        <button>Continue</button>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <!-- <div  class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Priyanshu farkare</a>.
+  </div> -->
+</body>
+
+</html>
